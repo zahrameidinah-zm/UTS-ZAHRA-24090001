@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Halaman Login</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="login-body">
+  <div class="login-container">
+    <div class="login-illustration">
+      <div class="illustration-wrapper">
+        <div class="illustration-frame">
+          <div class="phone-card">
+            <div class="phone-header"></div>
+            <div class="phone-body">
+              <div class="phone-line"></div>
+              <div class="phone-line short"></div>
+              <div class="phone-line"></div>
+            </div>
+          </div>
+
+          <div class="desk-area">
+            <div class="desk-line"></div>
+            <div class="desk-line short"></div>
+          </div>
+
+          <div class="person-area"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="login-form-wrapper">
+      <div class="login-form-card">
+        <h1 class="login-title">Welcome Back!</h1>
+
+        <form id="login-form">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <div class="input-with-icon">
+              <span class="input-icon">
+                <img src="Icons/email.svg" class="icon-bw" alt="Email">
+              </span>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email Address"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password (NIM)</label>
+            <div class="input-with-icon">
+              <span class="input-icon">
+                <img src="Icons/lock.svg" class="icon-bw" alt="Password">
+              </span>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+              />
+            </div>
+          </div>
+
+          <div class="form-footer">
+            <a href="#" class="link-small">Forgot Password?</a>
+          </div>
+
+          <div id="login-error" class="error-message"></div>
+          <button type="submit" class="btn-primary full-width">
+            Login
+          </button>
+          <div class="divider"><span>Or</span></div>
+          <div class="social-buttons">
+            <button type="button" class="btn-outline full-width btn-social">Google
+              <img src="Icons/goggle.svg" class="social-icon" alt="Goggle">
+            </button>
+            <button type="button" class="btn-outline full-width btn-social">Facebook
+              <img src="Icons/facebook.svg" class="social-icon" alt="Facebook">
+            </button>
+          </div>
+
+          <p class="signup-text">
+            Don’t have an account? <a href="#" class="link-small">Sign Up</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

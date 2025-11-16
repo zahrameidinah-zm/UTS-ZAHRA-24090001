@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>List Data Product</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="app-body">
+  <div class="app-wrapper">
+    <aside class="sidebar">
+      <div class="sidebar-logo">P</div>
+
+      <nav class="sidebar-nav">
+        <a href="dashboard.html" class="sidebar-item">
+          <img src="Icons/Home.svg" class="sidebar-icon" alt="Home" />
+        </a>
+
+        <a href="products.html" class="sidebar-item active">
+          <img src="Icons/box.svg" class="sidebar-icon" alt="Products" />
+        </a>
+
+        <button type="button" class="sidebar-item" aria-label="Info">
+          <img src="Icons/info.svg" class="sidebar-icon" alt="Info" />
+        </button>
+
+        <button type="button" class="sidebar-item" aria-label="Settings">
+          <img src="Icons/setting.svg" class="sidebar-icon" alt="Settings" />
+        </button>
+      </nav>
+    </aside>
+
+    <div class="main-content">
+      <header class="topbar">
+        <h1 class="page-title">List Data Product</h1>
+      </header>
+
+      <main class="content-area">
+        <section class="table-section">
+          <table class="products-table">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="products-table-body">
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
