@@ -5,7 +5,7 @@ NIM: 240900001
 
 # Link Project
 - Repository GitHub:https://github.com/zahrameidinah-zm/uts-zahrameidinahtahsya-24090001.git
-- GitHub Pages:
+- GitHub Pages: https://zahrameidinah-zm.github.io/UTS-ZAHRA-24090001/
 
 # Deskripsi Singkat
 
